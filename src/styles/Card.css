@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.item-container {
+    border: 1px;
+    background-color: #DD99BB;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    box-shadow: 6px 6px #7b506f;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item-name {
+    text-align: center;
+    font-size: 3em;
+}
+
+.item-full-name {
+    text-align: center;
+}
+
+.item-category {
+    text-align: center;
+    display: none;
+}
+
+.item-price {
+    text-align: center;
+    font-size: 2em;
+}
+.item-conc {
+    text-align: center;
+}
+
+.item-desc {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+}

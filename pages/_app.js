@@ -2,7 +2,8 @@ import "../styles/app.css"
 import Layout from "../components/Layout.js";
 import CardList from "../components/CardList.js";
 import products from "../content/Products.json";
-//import "../styles/App.css"
+
+import Head from "next/head";
 
 export default function App() {
 
@@ -10,9 +11,12 @@ export default function App() {
 
   return (
     <div className="app">
-      <Layout>
-        <CardList items={products.products} />
-      </Layout>
+        <Head>
+            <title>EstraLabs Shop</title>
+        </Head>
+        <Layout>
+            <CardList items={products.products} />
+        </Layout>
     </div>
   );
 }

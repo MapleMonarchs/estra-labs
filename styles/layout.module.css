@@ -1,0 +1,19 @@
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    text-align: center;
+    color: #DBCDC6;
+}
+
+.title {
+    text-align: center;
+    color: #EAD7D1;
+}
+
+.layout {
+    background-color: #1F1A38;
+}

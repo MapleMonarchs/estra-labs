@@ -1,19 +1,50 @@
-.content {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
+@media (orientation: landscape) {
+    .spinningEstrogen {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 
-.copyright {
-    text-align: center;
-    color: #DBCDC6;
-}
+    .layout {
+        background-color: #1F1A38;
+        padding-top: 2%;
+    }
 
-.title {
-    text-align: center;
-    color: #EAD7D1;
-}
+    .content {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copyright {
+        text-align: center;
+        color: #DBCDC6;
+    }
+    
+    .title {
+        text-align: center;
+        color: #EAD7D1;
+    }
 
-.layout {
-    background-color: #1F1A38;
+  }
+  
+  
+@media (orientation: portrait) {
+    .title {
+        text-align: center;
+        color: #EAD7D1;
+    }
+    
+    .spinningEstrogen {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 24%;
+        height: 6%;
+    }
+
+    .copyright {
+        text-align: center;
+        color: #DBCDC6;
+    }
 }

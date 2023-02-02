@@ -1,7 +1,9 @@
+import logo from "../public/EstraLabs1-1small.png";
 import styles from "../styles/layout.module.css";
+import Estrogen from "./Estrogen";
 import Image from 'next/image';
 import Link from "next/link";
-import logo from "../public/EstraLabs1-1small.png";
+
 
 export default function Layout({ children }) {
     return (
@@ -20,13 +22,7 @@ export default function Layout({ children }) {
             </header>
                 <div className={styles.content}>
                     {children}
-                    <Image 
-                        src="https://inconspicuousbucket.s3.us-west-2.amazonaws.com/e2v2.gif" 
-                        height={62}
-                        width={162}
-                        alt="Estrogen" 
-                        className={styles.spinningEstrogen}
-                    />
+                    <Estrogen />
                 </div>
             <footer className={styles.copyright}>
                 <span>(c) 2023 EstraLabs</span>

@@ -1,0 +1,46 @@
+
+
+@media (orientation: portrait) {
+
+    .estrogenContainer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 38%;
+        height: 9%;
+    }
+
+    .uglyButton {
+        all: unset;
+        cursor: pointer;
+    }
+
+    .hidden {
+        background-color: grey;
+        height: 5%;
+    }
+}
+
+@media (orientation: landscape) {
+    .estrogenContainer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 162px;
+        height: 62px;
+    }
+
+    .uglyButton {
+        all: unset;
+        cursor: pointer;
+    }
+
+    .hidden {
+        background-color: grey;
+        width: 162px;
+        height: 16px;
+        position: fixed;
+        bottom: 0;
+    }
+}
+

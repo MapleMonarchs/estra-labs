@@ -2,10 +2,6 @@ import styles from "../styles/estrogen.module.css"
 import Image from "next/image";
 import React, { useState } from "react";
 
-
-
-
-
 export default function Estrogen() {
 
     const [visible, setVisibility] = React.useState(true);

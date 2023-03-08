@@ -1,5 +1,6 @@
 import logo from "../public/EstraLabs1-1small.png";
 import styles from "../styles/layout.module.css";
+import DropDown from "./DropDown";
 import Estrogen from "./Estrogen";
 import Image from 'next/image';
 import Link from "next/link";
@@ -18,6 +19,7 @@ export default function Layout({ children }) {
                             height={150}
                         />
                     </Link>
+                    <DropDown />
                 </div>
             </header>
                 <div className={styles.content}>

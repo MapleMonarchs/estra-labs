@@ -9,12 +9,12 @@
             "desc": "Transdermal Estradiol is perfect if you want to travel abroad or are afraid of needles. The airless pump bottle expells 0.2 mL (2 mg) per pump. Our recommended dose is two pumps per day, which allows for more stable Estradiol levels than a single pump per day and makes a bottle last for 4 months.",
             "usage": "Transdermal Estradiol can be used ordered by descending effectivity on armpits, buttocks, thighs, lower stomach and forearms.",
             "disclaimer": "Flamable vapor and liquid. Keep away from heat, hot surfaces, sparks, open flames, and other ingnition sources. Keep away from direct sunlight and store below 50 °C (323 K) in a cool, dry place away from children and parents. Not suitable for refrigeration. Do not use on face, genitals, and other thin areas of skin suscetible to irritation by ethanol. Do not put clothes on until the area of application has fully dried and do not wash this area in the two hours following the administration. Keep small animals away from the area of application and cloth that was in contact with the area of application.",
-            "ingridients": "[% Vol]: Estradiol Valerate (1.0 %), Carbomer 940 (0.5 %), Triethanol Amine (0.5 %), purified Water (37.0 %), 96 % Ethanol (61.0 %)",
-            "concentration": "20 mg/mL",
-            "volume": "50 mL",
-            "mass": "1000 mg",
-            "dispension": "0.2 mL",
-            "dosage": "2 mg per pump"
+            "technical": ["Ingredients: [% Vol]: Estradiol Valerate (1.0 %), Carbomer 940 (0.5 %), Triethanol Amine (0.5 %), purified Water (37.0 %), 96 % Ethanol (61.0 %)",
+                        "Concentration: 20 mg/mL",
+                        "Volume: 50mL",
+                        "Mass: 1000 mg",
+                        "Dispension: 0.3 mL",
+                        "Dosage: 2 mg per pump"]
         },
         {
             "name": "Estracare 4mg",
@@ -25,12 +25,12 @@
             "desc": "Transdermal Estradiol is perfect if you want to travel abroad or are afraid of needles. The airless pump bottle expells 0.2 mL (4 mg) per pump. Using just one pump per day is enough if you use antiandrogens, which makes a bottle last for 8 months. Even monotherapy is possible using just two pumps (8 mg) per day, which makes a bottle last for 4 months.",
             "usage": "Transdermal Estradiol can be used ordered by descending effectivity on armpits, buttocks, thighs, lower stomach and forearms.",
             "disclaimer": "Flamable vapor and liquid. Keep away from heat, hot surfaces, sparks, open flames, and other ingnition sources. Keep away from direct sunlight and store below 50 °C (323 K) in a cool, dry place away from children and parents. Not suitable for refrigeration. Do not use on face, genitals, and other thin areas of skin suscetible to irritation by ethanol. Do not put clothes on until the area of application has fully dried and do not wash this area in the two hours following the administration. Keep small animals away from the area of application and cloth that was in contact with the area of application.",
-            "ingridients": "[% Vol]: Estradiol Valerate (2.0 %), Carbomer 940 (0.5 %), Triethanol Amine (0.5 %), purified Water (37.0 %), 96 % Ethanol (60.0 %)",
-            "concentration": "20 mg/mL",
-            "volume": "50 mL",
-            "mass": "1000 mg",
-            "dispension": "0.2 mL",
-            "dosage": "4 mg per pump"
+            "technical": ["[% Vol]: Estradiol Valerate (2.0 %), Carbomer 940 (0.5 %), Triethanol Amine (0.5 %), purified Water (37.0 %), 96 % Ethanol (60.0 %)",
+                        "Concentration: 20 mg/mL",
+                        "Volume: 50mL",
+                        "Mass: 1000 mg",
+                        "Dispension: 0.2 mL",
+                        "Dosage: 4 mg per pump"]
         },
         {
             "name": "Estraena",
@@ -40,10 +40,8 @@
             "price": "75€",
             "desc": "",
             "usage": "",
-            "ingridients": "",
-            "concentration": "",
-            "volume": "",
-            "mass": ""
+            "disclaimer": "",
+            "technical": []
         },
         {
             "name": "Estraval",
@@ -53,10 +51,8 @@
             "price": "55€",
             "desc": "",
             "usage": "",
-            "ingridients": "",
-            "concentration": "",
-            "volume": "",
-            "mass": ""   
+            "disclaimer": "",
+            "technical": []
         }
     ]
 }

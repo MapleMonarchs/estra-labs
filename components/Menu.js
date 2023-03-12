@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function DropDown() {
+export default function Menu() {
     return (
         <div>
-            <p>Dropp</p>
+            <p>Link</p>
         </div>
     )
 }

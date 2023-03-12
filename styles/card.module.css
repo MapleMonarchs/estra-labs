@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
 
 .itemContainer {
     border: 1px;
@@ -31,15 +31,21 @@
 .itemContainer p {
     margin-bottom: 1px;
     margin-top: 10px;
-    font-family: 'Roboto';
+    font-family: 'Helvetica';
     text-align: center;
 }
 
 @media (orientation: landscape) {
 
     .itemContainer {
+        width: 66vw;
         /*padding-left: 80%;
         padding-right: 80%;*/
+    }
+
+    .itemContainer:hover {
+        width: 70vw;
+        height: 85%;
     }
 }
 
